@@ -26,11 +26,13 @@ require_once '../obj/Tempo.php';
         $ultima_consulta = date('Y-m-d H:i:s', strtotime('-1 hours'));
         $Tempo = new Tempo($tempo_limite_em_segundos, $ultima_consulta);
         echo 'Agora: ' . $Tempo->getAgora();
+        echo '<hr>';
         echo 'Tempo ' . (($Tempo->esgotado()) ? 'esgotado' : 'disponivel');
         $_SESSION['Tempo'] = $Tempo->get();
         ?>
-        <pre>
         <hr>
+        <pre>
+        
             <?php echo print_r($_SESSION['Tempo']) ?>
         </pre>
     </body>
