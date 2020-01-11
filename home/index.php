@@ -25,6 +25,7 @@ require_once '../obj/Tempo.php';
         $tempo_limite_em_segundos = 3600; // 1h = 60m * 60s = 3600
         $ultima_consulta = date('Y-m-d H:i:s', strtotime('-1 hours'));
         $Tempo = new Tempo($tempo_limite_em_segundos, $ultima_consulta);
+        echo 'Agora: ' . $Tempo->getAgora();
         echo 'Tempo ' . (($Tempo->esgotado()) ? 'esgotado' : 'disponivel');
         $_SESSION['Tempo'] = $Tempo->get();
         ?>
