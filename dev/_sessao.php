@@ -36,8 +36,6 @@ require_once '../bin/sessao.php';
             .uppercase {
                 text-transform: uppercase !important;
             }
-
-
         </style>
         <pre>
             <?php
@@ -71,12 +69,9 @@ require_once '../bin/sessao.php';
                     echo "</div>";     # fecha a div
                 }
             } else {
-                echo "Nenhuma variável na sessão.";
+                echo "Nenhuma variável na sessão. ¯\_(ツ)_/¯";
             }
             ?>
         </pre>
     </body>
 </html>
-
-<?php
-
