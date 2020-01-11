@@ -23,7 +23,7 @@ ${licensePrefix}REIVINDICAÇÕES, DANOS OU OUTRAS RESPONSABILIDADES, QUER EM AÇ
 ${licensePrefix}DELITO OU DE OUTRA FORMA, DECORRENTES DE, OU EM CONEXÃO COM O SOFTWARE OU O USO
 ${licensePrefix}OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
 ${licensePrefix}------------------------------------------------------------------------------------------
-${licensePrefix}Projeto   : tempo-php
+${licensePrefix}Projeto   : tempo-limite-php
 ${licensePrefix}Criado em : ${date?date?string("dd/MM/yyyy")}
 ${licensePrefix}Autor     : Viniciusalopes (Vovolinux) <suporte@viniciusalopes.com.br>
 ${licensePrefix}Finalidade: 

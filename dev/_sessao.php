@@ -3,8 +3,8 @@
 ---------------------------------------------------------------------------------------
 Licença   : MIT - Copyright 2020 Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
 Criado em : 11/01/2020
-Projeto   : tempo-php
-Finalidade: 
+Projeto   : tempo-limite-php
+Finalidade: Exibir variáveis de sessão
 ---------------------------------------------------------------------------------------
 -->
 <?php

@@ -4,8 +4,8 @@
  * ---------------------------------------------------------------------------------------
  * Licença   : MIT - Copyright 2020 Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
  * Criado em : 11/01/2020
- * Projeto   : tempo-php
- * Finalidade: Calcular tempo transcorrido
+ * Projeto   : tempo-limite-php
+ * Finalidade: Classe para calcular tempo transcorrido
  * ---------------------------------------------------------------------------------------
  */
 
