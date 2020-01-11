@@ -12,4 +12,4 @@
 require_once '../bin/sessao.php';
 session_destroy();
 clearstatcache();
-header('location: ../dados/_sessao.php');
+header('location: ../dev/_sessao.php');

@@ -8,7 +8,7 @@ Finalidade:
 ---------------------------------------------------------------------------------------
 -->
 <?php
-require_once '../bll/sessao.php';
+require_once '../bin/sessao.php';
 ?>
 <html lang="pt-BR">
     <head>
@@ -44,7 +44,7 @@ require_once '../bll/sessao.php';
             if (count($_SESSION) > 0) {
                 $itens = [
                     (object) ['item' => 'top', 'link' => "<a classe href=\"#top\">top</a>"],
-                    (object) ['item' => 'limpar_sessao', 'link' => "<a classe href=\"../dados/limpar_sessao.php\">limpar sessão</a>"]
+                    (object) ['item' => 'limpar_sessao', 'link' => "<a classe href=\"../dev/limpar_sessao.php\">limpar sessão</a>"]
                 ];
 
                 foreach ($_SESSION as $key => $value) {

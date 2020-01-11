@@ -10,7 +10,7 @@
  */
 
 class Tempo {
-
+    
     private $agora;
     private $tempo_limite;
     private $ultima_consulta;
@@ -41,14 +41,13 @@ class Tempo {
     }
 
     function esgotado() {
-
         return ($this->tempo_transcorrido >= $this->tempo_limite) ? TRUE : FALSE;
     }
 
     function get() {
         return (object) [
-                    'tempo_limite' => $this->tempo_limite,
                     'agora' => $this->agora,
+                    'tempo_limite' => $this->tempo_limite,
                     'ultima_consulta' => $this->ultima_consulta,
                     'tempo_transcorrido' => $this->tempo_transcorrido,
                     'tempo_esgotado' => $this->esgotado()
